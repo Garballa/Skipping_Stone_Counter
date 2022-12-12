@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/9e64d2e9d9.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,8 +19,12 @@
     <div class="container">
       <h1>Number of Skips:</h1>
       <h2 id="count-el">0</h2>
-      <button id="increment-btn" onclick="increment()">INCREMENT</button>
-      <button id="save-btn" onclick="save()">SAVE</button>
+      <button id="increment-btn" onclick="increment()">
+        <i class="fa-solid fa-circle-plus fa-lg"></i> INCREMENT
+      </button>
+      <button id="save-btn" onclick="save()">
+        <i class="fa-solid fa-circle-check fa-lg"></i> SAVE
+      </button>
       <p id="save-el">Previous entries:</p>
     </div>
     <script src="script.js"></script>

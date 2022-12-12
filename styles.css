@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("images/SKipping_Stones-Background.png");
+  background-size: cover;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  font-family: "Rock Salt", cursive;
+  color: #e6e2c3;
+  background-color: rgb(28, 49, 94, 0.5);
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  height: auto;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #e6e2c3;
+  border-radius: 10px;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: "Rock Salt", cursive;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #e6e2c3;
+  font-weight: bold;
+  font-size: medium;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: #88a47c;
+}
+
+#save-btn {
+  background: #227c70;
+}
