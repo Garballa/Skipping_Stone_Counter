@@ -33,6 +33,11 @@ h1 {
   font-size: xx-large;
   font-weight: bolder;
 }
+#header {
+  font-family: "Finger Paint", cursive;
+  color: #e6e2c3;
+  text-align: center;
+}
 
 h2 {
   font-family: "Finger Paint", cursive;
@@ -64,7 +69,7 @@ button {
 footer {
   font-size: small;
   align-items: center;
-  font-family: "Rock Salt", cursive;
+  font-family: "Finger Paint", cursive;
   color: #e6e2c3;
 }
 .icons {
@@ -72,4 +77,8 @@ footer {
 }
 .icons2 {
   color: #88a47c;
+}
+.icons:hover,
+.icons2:hover {
+  color: #e6e2c3;
 }
