@@ -26,6 +26,7 @@ body {
   align-items: center;
   border: 5px solid #e6e2c3;
   border-radius: 10px;
+  height: 75%;
 }
 h1 {
   margin-top: 10px;
@@ -70,6 +71,7 @@ footer {
   font-size: small;
   align-items: center;
   font-family: "Finger Paint", cursive;
+  margin-top: 20px;
   color: #e6e2c3;
 }
 .icons {
